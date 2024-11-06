@@ -1,5 +1,7 @@
 .header {
-  padding: 20px 0;
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
 }
 .nav {
   display: flex;
@@ -14,13 +16,14 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  gap: 40px;
+  gap: 80px;
 }
 .nav-link {
   position: relative;
   display: block;
-  font-weight: 500;
-  letter-spacing: 0.02em;
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: 0.04em;
   transition: 200ms ease-in;
 }
 .nav-link:hover,
